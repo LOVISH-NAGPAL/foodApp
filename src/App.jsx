@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Success from "./Pages/Success";
 
-import ProtectedRoute from "./Components/ProtectedRoute";
+import ProtectedRoute from "./Components/protectedRoute";
 import Login from "./Pages/login";
 
 function App() {
