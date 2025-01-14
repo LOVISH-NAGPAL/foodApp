@@ -22,6 +22,8 @@ function AddMenu() {
       setData(editData);
     }
   }, [editData]);
+  
+  
 
   const validateData = () => {
     const { name, price, img, desc, category, rating } = data;
@@ -154,6 +156,7 @@ function AddMenu() {
                 rating: "",
               });
             } else {
+              dispatch(menuInfo(data))
               dispatch(menuChange());
               dispatch(clearEdit());
               setData({
