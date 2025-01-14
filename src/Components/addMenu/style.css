@@ -1,0 +1,19 @@
+input,
+select,
+textarea {
+  background-color: rgb(212, 214, 212);
+  color: black;
+  border-radius: 5px;
+  text-align: start;
+}
+* {
+  text-align: left;
+}
+label {
+  display: inline-block;
+}
+input {
+  height: 30px;
+
+  background-color: rgb(212, 214, 212);
+}
