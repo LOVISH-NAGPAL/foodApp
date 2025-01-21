@@ -137,7 +137,7 @@ function Home() {
           ) : (
             <p className={`text-2xl mt-5`}>Your cart is empty</p>
           )}
-          <div className=" overflow-auto h-[78%] pb-12 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
+          <div className=" overflow-auto h-[78%] pb-14 sm:pb-12 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
             {cartData.map((data) => {
               return (
                 <div key={data.id}>
@@ -146,7 +146,7 @@ function Home() {
               );
             })}
           </div>
-          <div className="absolute bottom-0  text-center w-full p-2    bg-green-100">
+          <div className="absolute bottom-0  text-center w-full pb-6 p-2 sm:p-2    bg-green-100">
             <p className="text-xl font-medium text-left">
               Items: {totalQuantity}
             </p>
