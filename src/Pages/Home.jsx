@@ -146,7 +146,7 @@ function Home() {
               );
             })}
           </div>
-          <div className="absolute bottom-0  text-center w-full pb-6 p-2 sm:p-2    bg-green-100">
+          <div className="absolute bottom-0  text-center w-full pb-10 p-2 sm:p-2 bg-green-100">
             <p className="text-xl font-medium text-left">
               Items: {totalQuantity}
             </p>
