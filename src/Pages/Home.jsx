@@ -54,7 +54,7 @@ function Home() {
     <>
       <div className="p-4">
         <div
-          className={` fixed h-[100vh] w-[95%] sm:w-[500px] bg-[#efefef] shadow-2xl left-0 top-0 p-4 z-10 ${
+          className={` fixed h-[100vh] w-[95%] sm:w-[500px] bg-[#efefef] shadow-2xl left-0 top-0 p-1 sm:p-4 z-10 ${
             menu ? "translate-x-0" : "-translate-x-full"
           }  transition-all duration-400 ease-in-out`}>
           <AddMenu />

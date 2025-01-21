@@ -42,7 +42,7 @@ function AddMenu() {
   };
 
   return (
-    <div>
+    <div className="">
       <FaRegWindowClose
         className="absolute top-5 right-5 text-3xl rounded-lg hover:scale-150 hover:fill-green-500 transition-all duration-300 ease-in-out"
         onClick={() => {
@@ -59,7 +59,7 @@ function AddMenu() {
         }}
       />
       <h1 className="p-5">Menu</h1>
-      <div className="p-2 bg-green-500 rounded-lg">
+      <div className="p-2 bg-green-500 rounded-lg ">
         <div className="p-2 bg-gray-100 flex justify-between">
           <label htmlFor="">Image URL:</label>
           <input
@@ -72,7 +72,7 @@ function AddMenu() {
             onKeyDown={(event) => handleKeyDown(event, "id2")}
           />
         </div>
-        <div className="p-2 bg-gray-100 flex justify-between">
+        <div className="p-2 bg-gray-100 flex justify-between ">
           <label htmlFor="">Product name:</label>
           <input
             type="text"
