@@ -13,7 +13,9 @@ import AddMenu from "../Components/addMenu/addMenu";
 import { menuChange } from "../store/Slices/menuCard";
 
 function Home() {
-  const [time, setTime] = useState(new Date().toLocaleString());
+  const [time, setTime] = useState(
+    new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+  );
   // useEffect(() => {
   //   const interval = setInterval(
   //     () => setTime(new Date().toLocaleString()),
